@@ -24,7 +24,7 @@ class Product
         cin>>price;
         cout<<"Enter the Monthly Sales of 12 Months: "<<endl;
         totalQuantity=0;
-        for (int i=0; i<13; i++)
+        for (int i=0; i<12; i++)
         {
             cin>>monthlysales[i];
             totalQuantity += monthlysales[i];
